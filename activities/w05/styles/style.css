@@ -1,0 +1,35 @@
+#title {
+    margin: 0;
+    background-color: gray;
+}
+
+#title-image {
+    width: 100%;
+}
+
+#images {
+    background-color: gray;
+    margin: 0;
+    text-align: center;
+}
+
+#desk-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 50px;
+    border: 10px solid rgb(58, 58, 58);
+}
+
+#graphic-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 50px;
+    border: 10px solid rgb(58, 58, 58);
+}
+
+#person-img {
+    width: 15%;
+    border-radius: 50%;
+    margin: 50px;
+    border: 10px solid rgb(58, 58, 58);
+}
