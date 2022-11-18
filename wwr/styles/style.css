@@ -23,7 +23,7 @@ h1, h2, h3, h4 {
 
 h4, h3 {
     color: #1D3557;
-    /* font-family: var(--heading-font); */
+    text-align: left;
 }
 
 h2 {
@@ -156,6 +156,49 @@ main section img {
 
 #hero-img {
     width: 100%;
+}
+
+#hero-contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    margin-top: -5px;
+}
+
+#hero-box-contact {
+    grid-column: 1/6;
+    grid-row: 1/4;
+    z-index: -1;
+}
+
+#hero-img-blur {
+    width: 100%;
+    filter: blur(3px)
+}
+
+#hero-title {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+#about-info p {
+    text-align: left;
+}
+
+#contact-msg {
+    background-color: #64B994;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/10;
+    box-shadow: 5px 5px 10px black;
+}
+
+#contact-msg p {
+    text-align: left;
+}
+
+#contact-msg h2 {
+    color: #1D3557;
 }
 
 #hero-msg {
