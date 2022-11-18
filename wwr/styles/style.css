@@ -397,8 +397,8 @@ strong {
         display: none;
     }
     .home-title {
-        font-size: 25px;
-        color: #6f7364;
+        font-size: 2em;
+        color: #E63946;
     }
 
     .rivers-card, .camping-card, .rapids-card, .robert-card, .eliza-card, .george-card { 
@@ -408,15 +408,20 @@ strong {
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, #contact-msg, .river-img, #river-msg {
         width: 80%;
         display: block;
         margin: 0 auto;
     }
-    #river-msg {
-        width: 80%;
+
+    p, h3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #space {
         display: block;
-        margin: 0 auto;
+        height: 0px;
     }
     footer {
         margin-top: 25px;
