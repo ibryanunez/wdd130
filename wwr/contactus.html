@@ -51,12 +51,32 @@
             <div id="space"></div>
             <section id="contact-msg">
                 <h2>Book your trip now!</h2>
-                <p>Phone:  866-667-8411</p>
+                <!-- <p>Phone:  866-667-8411</p>
                 <p>contact@xtremerafting.com</p>
                 <p>26267 Conifer Rd</p>
                 <p>26267 Conifer Rd, Conifer, CO 80433, EE. UU.</p>
-                <a class="join" href="aboutus.html">Join Us</a>
+                <a class="join" href="aboutus.html">Join Us</a> -->
+                <form action="/my-handling-form-page" method="post">
+                    <ul>
+                      <li>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="user_name" />
+                      </li>
+                      <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email" />
+                      </li>
+                      <li>
+                        <label for="msg">Message:</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                      </li>
+                      <li class="button">
+                        <button type="submit">Send message</button>
+                      </li>                  
+                    </ul>
+                  </form>
             </section>
+            
         </main>
         <footer>
             <p id="info">WDD130-09 - Bryan Núñez</p>
