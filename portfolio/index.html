@@ -5,26 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/Logo 2.png">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Bryan Nuñez | Web Designer and Developer | Home</title>
 </head>
 <body>
     <div id="content">
-        <header>
-            <a href="index.html" id="logo_link">
-                <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" width="50px">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </header>
+        <div class="nav-blur">
+            <header>
+                <a href="index.html" id="logo_link">
+                    <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" class="logo">
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </header>
+        </div>
         <div id="hero">
             <div id="hero-box">
-                <img src="images/bin_background.png" alt="Code on computer screen" width="100%">
+                <div class="img-container">
+                    <div class="blur-container"></div>
+                    <!-- <img src="images/bin_background.png" alt="Code on computer screen" id="hero-img"> -->
+                </div>
             </div>
             <div id="my-picture">
-                <img src="images/programmer.png" alt="Me, Bryan Nuñez">
+                <img src="images/me_rounded.png" alt="Me, Bryan Nuñez" id="me">
             </div>
             <section id="hero-msg">
                 <h1 class="home-title">Bryan Nuñez</h1>
@@ -32,11 +38,14 @@
             </section>
         </div>
         <main class="about-grid">
-            <section id="about-section">
-                <h1 class="main-title">About me</h1>
-                <h3>I'm Bryan Nuñez, Web Designer and Developer.</h3>
+            <!-- <section id="about-section"> -->
+            <h1 class="main-title">About me</h1>
+            <h3 id="about-subtitle">I'm Bryan Nuñez, Web Designer and Developer.</h3>
+            <section id="about-text">
+                <p>Do you want to start an online bussines but don't know how to? You're in the right place. I'm a web designer and developer that creates websites that are attractive and enggaging to people. I do this for businesses that want to increase their online sales.</p>
                 <p>I'm a Full Stack developer with experience building websites and web applications. I specialize in JavaScript. I'm always seeking to improve my knowledge and skills and I'm constantly learning about new technologies in order to make valuable contributions to the projects that I'm part of.</p>
             </section>
+            <!-- </section> -->
             <div id="skills-title">
                 <h3>My skills:</h3>
             </div>
