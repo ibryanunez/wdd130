@@ -55,6 +55,8 @@ nav a {
     color: var(--pink);
     text-decoration: none;
     padding: 15px;
+    transition: .4s;
+    border-radius: 4px;
 }
 
 #logo_link {
@@ -66,7 +68,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: var(--pink);
+    /* background-color: var(--pink); */
     color: var(--light-blue);
 }
 
