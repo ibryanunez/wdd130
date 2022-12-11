@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/Logo 2.png">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>Bryan Nuñez | Web Designer and Developer | Home</title>
 </head>
 <body>
-    <div id="content">
+    <div class="nav-blur">
         <header>
             <a href="index.html" id="logo_link">
-                <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" width="50px">
+                <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" class="logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -19,35 +20,66 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
+    </div>
+    <div id="content">
         <div id="hero">
             <div id="hero-box">
-                <img src="images/title code.jpg" alt="Code on computer screen" width="100%">
+                <div class="img-container-portfolio">
+                    <div class="blur-container">
+                        <div class="opacity"></div>
+                    </div>
+                </div>
             </div>
             <div id="my-picture">
-                <img src="images/programmer.png" alt="Me, Bryan Nuñez">
+                <img src="images/programmer.png" alt="A programmer's avatar" id="me">
             </div>
         </div>
         <main class="portfolio-grid">
-            <section id="porfolio-title">
-                <h1 class="main-title">Portfolio</h1>
-                <h3>Here you can see the projects I've worked on.</h3>
-            </section>
-            <form action=""></form>
+            <!-- <section id="porfolio-title"> -->
+            <h1 class="main-title">Portfolio</h1>
+            <h3 id="portfolio-subtitle">Here you can see the projects I've worked on.</h3>
+            <!-- </section> -->
+            <div id="space"></div>
             <div id="xtreme-rafting-project">
-                <div class="hover-project"></div>
-                <img src="images/xtreme_rafting.png" alt="Xtreme Rafting Website Screen Shot" class="project-image">
+                <img src="images/xtreme-rafting.png" alt="Xtreme Rafting Website Screen Shot" class="project-image">
+                <div class="hover-project">
+                    <div class="opacity"></div>
+                    <div class="text">
+                        <h3>Xtreme Rafting</h3>
+                        <p>Website: HTML, CSS</p>
+                        <a href="https://ibryanunez.github.io/wdd130/wwr/index.html" target="_blank">Website</a>
+                    </div>
+                </div>
             </div>
             <div id="shopping-cart-project">
-                <div class="hover-project"></div>
-                <img src="images/xtreme_rafting.png" alt="Shopping Cart Website Screen Shot" class="project-image">
+                <img src="images/shopping-cart.png" alt="Shopping Cart Website Screen Shot" class="project-image">
+                <div class="hover-project">
+                    <div class="opacity"></div>
+                    <div class="text">
+                        <h3>Shopping Cart API</h3>
+                        <p>Web application: JS</p>
+                        <a href="https://ibryanunez.github.io/CSE-121B---JavaScript-Language/W06/Shopping%20cart/index.html" target="_blank">Website</a>
+                    </div>
+                </div>
             </div>
-            <div id="1-fantasy-project">
-                <div class="hover-project"></div>
-                <img src="images/xtreme_rafting.png" alt="Website Screen Shot" class="project-image">
+            <div id="space-img"></div>
+            <div id="fantasy-project-1">
+                <img src="images/under-construction.png" alt="Website Screen Shot" class="project-image">
+                <div class="hover-project">
+                    <div class="opacity"></div>
+                    <div class="text">
+                        <h3>Not ready yet.</h3>
+                    </div>
+                </div>
             </div>
-            <div id="2-fantasy-project">
-                <div class="hover-project"></div>
-                <img src="images/xtreme_rafting.png" alt="Website Screen Shot" class="project-image">
+            <div id="fantasy-project-2">
+                <img src="images/under-construction.png" alt="Website Screen Shot" class="project-image">
+                <div class="hover-project">
+                    <div class="opacity"></div>
+                    <div class="text">
+                        <h3>Not ready yet.</h3>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
