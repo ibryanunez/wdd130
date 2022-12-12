@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/Logo 2.png">
-    <title>Bryan Nuñez | Web Designer and Developer | Home</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Bryan Nuñez | Web Designer and Developer | Contact</title>
 </head>
 <body>
-    <div id="content">
+    <div class="nav-blur">
         <header>
             <a href="index.html" id="logo_link">
-                <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" width="50px">
+                <img src="images/Logo 2.png" alt="Bryan Nuñez Logo" class="logo">
             </a>
             <nav>
                 <a href="index.html">Home</a>
@@ -19,58 +20,56 @@
                 <a href="contact.html">Contact</a>
             </nav>
         </header>
+    </div>
+    <div id="content-contact">
+        <h1 class="contact-title">Contact</h1>
+        <h3 class="contact-subtitle">Contact me if you want us to work together.</h3>
         <main class="contact-grid">
-            <section id="contact-title">
-                <h1 class="main-title">Contact</h1>
-                <h3>Please leave a message if you want us to work together.</h3>
-            </section>
-            <form action="/my-handling-form-page" method="post">
-                <ul>
-                    <li>
-                        <input type="text" id="name" name="user_name" value="Name">
-                    </li>
-                    <li>
-                        <input type="email" id="email" name="user_email" value="Email">
-                    </li>
-                    <li>
-                        <textarea name="user_message" id="msg">Type your message</textarea>
-                    </li>
-                    <li>
-                        <button type="submit">Send</button>
-                    </li>
-                </ul>
-            </form>
+            <div id="form-container">
+                <form action="/my-handling-form-page" method="post">
+                    <input type="text" id="name" name="user_name" placeholder="Name...">
+
+                    <input type="email" id="email" name="user_email" placeholder="Email...">
+                        
+                    <textarea name="user_message" id="msg" placeholder="Message..."></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
             <div id="chat-image">
-                <img src="images/chat.png" alt="Chat on a computer">
+                <img src="images/chat.png" alt="Chat on a computer" class="chat-img">
             </div>
             <div id="email-image">
-                <img src="images/email-logo.png" alt="Email icon">
+                <img src="images/email-logo.png" alt="Email icon" class="basic-img">
             </div>
             <div id="github-image">
-                <img src="images/github-pixel.png" alt="Github icon">
+                <img src="images/github-pixel.png" alt="Github icon" class="basic-img">
             </div>
             <div id="linkedin-image">
-                <img src="images/linkedin.png" alt="LinkedIn icon">
+                <img src="images/linkedin.png" alt="LinkedIn icon" class="basic-img">
+            </div>
+            <div id="twitter-image">
+                <img src="images/twitter.png" alt="LinkedIn icon" class="basic-img">
             </div>
         </main>
-        <footer>
-            <p>Bryan Nuñez &copy; 2022</p>
-            <p><a href="index.html">Home</a></p>
-            <p><a href="portfolio.html">Portfolio</a></p>
-            <p><a href="contact.html">Contact</a></p>
-            <p><a href="site-plan.html">Site Plan</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="facebook icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://instagram.com" target="_blank">
-                    <img src="images/instagram.png" alt="instagram icon">
-                </a>
-            </div>
-        </footer>
     </div>
+    <footer>
+        <p>Bryan Nuñez &copy; 2022</p>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="portfolio.html">Portfolio</a></p>
+        <p><a href="contact.html">Contact</a></p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="facebook icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
