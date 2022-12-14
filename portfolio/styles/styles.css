@@ -559,12 +559,15 @@ input[type=text], input[type=email] {
         height: 0;
     }
     .basic-img {
-        width: 120px;
+        width: 100px;
     }
     #email-image, #github-image, #linkedin-image, #twitter-image {
         margin: 0;
         padding: 20px;
         display: inline;
+    }
+    #email-image a, #github-image a, #linkedin-image a, #twitter-image a {
+        text-decoration: none;
     }
     #contact-h{
         display: block;
