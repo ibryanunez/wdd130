@@ -250,6 +250,12 @@ footer div a {
 
 footer a {
     color: #FE00FE;
+    transition: .4s;
+}
+
+footer a:hover {
+    /* background-color: var(--pink); */
+    color: var(--light-blue);
 }
 
 footer p {
@@ -469,10 +475,6 @@ input[type=text], input[type=email] {
     /* padding: 8%; */
 }
 
-#chat-image img {
-    margin: auto;
-}
-
 #email-image {
     grid-column: 2/3;
     grid-row: 3/7;
@@ -503,4 +505,46 @@ input[type=text], input[type=email] {
     margin-top: 40px;
     margin-bottom: 80px;
     padding: 15%;
+}
+
+@media screen and (max-width: 900px) {
+    /* #hero, .home-grid {
+        display: block;
+        height: auto;
+    } */
+    .about-grid, .contact-grid, .portfolio-grid {
+        display: block;
+    }
+    .html-skill, .javascript-skill, .python-skill, .css-skill, .git-skill, .github-skill {
+        display:inline-flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    header {
+        display: flex;
+    }
+    #logo-link{
+        align-self: flex-start;
+    }
+    nav {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        height: auto;
+        font-size: 0.8em;
+    }
+    nav a {
+        /* display: block; */
+        padding: 15px;
+    }
+    footer {
+        margin-top: 25px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .social a {
+        padding: 5px;
+        margin: 5px;
+    }
 }
