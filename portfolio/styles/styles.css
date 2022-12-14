@@ -507,6 +507,10 @@ input[type=text], input[type=email] {
     padding: 15%;
 }
 
+#contact-h {
+    display: none;
+}
+
 @media screen and (max-width: 900px) {
     /* #hero, .home-grid {
         display: block;
@@ -525,6 +529,7 @@ input[type=text], input[type=email] {
     }
     #logo-link{
         align-self: flex-start;
+        height: 100%;
     }
     nav {
         width: 100%;
@@ -546,5 +551,23 @@ input[type=text], input[type=email] {
     .social a {
         padding: 5px;
         margin: 5px;
+    }
+    #xtreme-rafting-project, #shopping-cart-project, #fantasy-project-1, #fantasy-project-2 {
+        margin: 10px;
+    }
+    #space, #space-img {
+        height: 0;
+    }
+    .basic-img {
+        width: 120px;
+    }
+    #email-image, #github-image, #linkedin-image, #twitter-image {
+        margin: 0;
+        padding: 20px;
+        display: inline;
+    }
+    #contact-h{
+        display: block;
+        color: var(--dark-blue);
     }
 }
