@@ -21,9 +21,16 @@ body {
     padding: 0;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h4 {
     font-family: var(--heading-font);
     color: var(--pink);
+    text-shadow: 2px 3px var(--black);
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: var(--pink);
+    text-shadow: 2px 1px var(--black);
 }
 
 /* Top */
@@ -306,6 +313,7 @@ div a img {
     width: 100%;
     border-radius: 15px;
     display: block;
+    box-shadow: 5px 5px 10px var(--dark-blue);
     /* border: 5px solid var(--dark-blue); */
 }
 
@@ -374,7 +382,17 @@ div a img {
 }
 
 .text a {
-    color: var(--pink);
+    background-color: var(--pink);
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: .8px 1px black;
+}
+.text a:hover {
+    background-color: #ff67ff;
+    opacity: 1;
 }
 
 .text p {
@@ -526,10 +544,6 @@ input[type=text], input[type=email] {
     }
     header {
         display: flex;
-    }
-    #logo-link{
-        align-self: flex-start;
-        height: 100%;
     }
     nav {
         width: 100%;
